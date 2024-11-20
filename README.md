@@ -1,4 +1,6 @@
-# 32Bit_ALU Simulation
+# Name : GOPINATHAN P
+# Reg no : 212222060068
+# Exp-3: 32Bit_ALU Simulation
 
 # Aim: 
 
@@ -60,6 +62,8 @@ source /cadence/install/cshrc (mention the path of the tools)
       
 After this you can see the window like below 
 
+![Screenshot (111)](https://github.com/user-attachments/assets/5c46bea2-d099-40e9-964c-c51c83bd85cc)
+
 ### Fig 2: Invoke the Cadence Environment
 
 To Launch Simulation tool 
@@ -73,11 +77,15 @@ or
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
 
+![Screenshot (114)](https://github.com/user-attachments/assets/b8983e6d-efb4-404c-885c-f13d3a8288f4)
+
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
-Click the cds.lib file and save the file by clicking on Save option 
+Click the cds.lib file and save the file by clicking on Save option
+
+![Screenshot (115)](https://github.com/user-attachments/assets/2d0e4876-cf82-4235-a56d-76e6c20702d1)
 
 ### Fig 4:cds.lib file Creation
 
@@ -89,7 +97,7 @@ We are simulating verilog design without using any libraries
 
 A Click “OK” in the “nclaunch: Open Design Directory” window as shown in below figure 
 
-![image](https://github.com/user-attachments/assets/d5202b97-ee5c-4e0e-9eaf-5f3fa733e546)
+![Screenshot (116)](https://github.com/user-attachments/assets/a41c9744-e573-4c6e-ac81-8b072d9569d5)
 
 ### Fig 5: Selection of Don’t include any libraries
 
@@ -100,6 +108,8 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+
+![Screenshot (117)](https://github.com/user-attachments/assets/14a11bd6-c319-4b9e-9113-d09d920371b1)
 
 ### Fig 6: Nclaunch Window
 
@@ -123,7 +133,9 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 
 Left side select the file and in Tools : launch verilog compiler with current selection will get enable. Click it to compile the code 
 
-Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
+Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
+
+![Screenshot (118)](https://github.com/user-attachments/assets/34e3cc54-18f2-40a5-a6e5-b2342900ef69)
 
 ### Fig 7: Compiled database in worklib
 
@@ -159,6 +171,8 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
 
+![Screenshot (119)](https://github.com/user-attachments/assets/fc0cd55c-f339-4063-970d-abc0dab6533d)
+
 ## Fig 8: Elaboration Launch Option
 
 ## Step 3: Simulation: 
@@ -173,34 +187,18 @@ Simulation allow to dump design and test bench signals into a waveform
 
 Steps for simulation – Run the simulation command with simulator options
 
+![3 design browser](https://github.com/user-attachments/assets/d1148c97-0a9a-42c8-9b2f-b40b3dfd97e3)
+
 ## Fig 9: Design Browser window for simulation
 
+![3 pre waveform](https://github.com/user-attachments/assets/7c11d52b-7e3d-4eb0-8b2a-de6e4d1d8c23)
+
 ## Fig 10:Simulation Waveform Window
+
+![Screenshot (121)](https://github.com/user-attachments/assets/e7bf4f7b-3dda-4cce-a432-d6207998109f) 
 
 ## Fig 11:Simulation Waveform Window
 
 ### Result
 
 The functionality of a 32-bit ALU was successfully verified using a test bench and simulated with the nclaunch tool.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-
-
-
-
-
-
-
